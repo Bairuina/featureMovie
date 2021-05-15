@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.contain{
+	min-width: 1200px;
+	width: 100%;
+}
+.contain .wrapping{
+	width: 1200px;
+	margin: 0 auto;
+}
+.contain .wrapping .top{
+	border: 1px solid #888;
+	border-radius: 5px;
+	padding: 0 10px;
+	margin: 25px 0;
+}
+.list-1,.list-2,.list-3,.list-4{
+	border-bottom: 1px dashed #888;
+	padding: 10px;
+}
+.contain .wrapping .top .type{
+	display: inline-block;
+	color: #c4c3c3;
+	font-size: 14px;
+}
+.contain .wrapping .top .name{
+	display: inline-block;
+}
+.contain .wrapping .top .name a:hover{
+	background-color: #0093ff;
+	color: #fff !important;
+	border-radius: 3px;
+	padding: 1px 3px;
+	font-size: 15px;
+	transform: scale(1.05);
+}
+.contain .wrapping .top .name a:active{
+	background-color: #0093ff;
+	color: #fff !important;
+	border-radius: 3px;
+	padding: 1px 5px;
+}
+.contain .wrapping .top .name a{
+	color: #000;
+	font-size: 13px;
+	margin-left: 30px;
+	vertical-align: left;
+	transition: all 0.3s;
+
+}
+.menu{
+	margin: 10px auto;
+	border: 1px solid #c4c3c3;	
+	padding: 8px;
+	border-radius: 5px;
+}
+.menu li {
+	display: inline;
+	padding: 0 5px;
+	font-size: 14px; 
+	margin: 0 5px;
+}
+.menu li a{
+	color: #000;
+}
+.menu li:hover{
+	border-bottom: 2px solid #0093ff;
+	padding-bottom: 7px;
+}
+.list-item{
+	transition: all .5s;
+	border: 1px solid #123;
+	border-radius: 5px;
+	margin: 10px;
+	position: relative;
+	width: 212px;
+	display: inline-block;
+}
+img.shipin{
+	display: inline-block;
+	width: 212px;
+}
+.list-item .renew{
+	padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    bottom: 56px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.5);
+}                                                                                                                                              
+.list-item p{
+	margin: 5px 3px;
+}
+.actors{
+	font-size: 12px;
+	color: #8e959c;
+}
+.list-item:hover{
+	cursor: pointer;
+    transform: scale(1.03);
+	box-shadow:2px 2px 3px #aaaaaa;
+}
+.page{
+	width: 364px;
+	margin: 10px auto;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li {
+	display: inline;
+}
+ul.pagination li a {
+	border-radius: 5px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.pagination li a.on {
+    background-color: #0093FF;
+    color: white;
+}
+ul.pagination li a:hover:not(.on) {background-color: #CEF0FF;}

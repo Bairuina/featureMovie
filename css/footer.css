@@ -1,0 +1,33 @@
+.footer a{
+	text-decoration: none;
+}
+.footer{
+	font-family: Arial, "Microsoft Yahei", sans-serif, 宋体;
+	font-size: 14px;
+	background: #333;
+	color: #c4c3c3;
+	min-width: 1200px;
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+}
+.branding{
+	display: inline-block;
+	width: 1200px; 
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.footer .container{
+	margin-bottom: 10px;
+}
+.footer.hr{
+	display: inline-block;
+	height: 1px;
+	background-color: #4f4f4f;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.footer p{
+	line-height: 30px;
+	margin-top: 10px;
+}

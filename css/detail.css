@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.wrapping{
+	min-width: 1200px;
+	width: 100%
+}
+.contain{
+	width: 1200px;
+	margin: 0 auto;
+}
+.left{
+	cursor: pointer;
+	display: inline-block; 
+	width: 245px;  
+	height: 375px;
+	margin: 30px 50px 20px 0px;
+	background: url(../img/shipin1.png);
+}
+.left:hover{
+	background: url(../img/shipin2.png);
+	z-index: 2;
+}
+.right{
+	display: inline-block;
+	width: 898px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.right a:hover{
+	text-decoration: underline;
+}
+.right a{
+	color: #039aff;	
+}
+h1{	
+	display: inline-block;
+	font-weight: 400;
+}
+h2{
+	display: inline-block;
+    color: #f40;
+    font-weight: 500;
+}
+.zb{
+	display: inline-block;
+    height: 26px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    background-color: #049aff;
+    position: relative;
+    top: -4px;
+    left: 30px;
+    border-radius: 3px;
+}
+.ewm{
+	position: absolute;
+	top: 30px;
+	left: -25px;
+	padding: 10px;
+	background-color: #eaf3fb;
+    border: 1px solid #049aff;
+    color: #049aff;
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	display: none;
+}
+.zb:hover{
+	background-color: #16bdff;
+}
+.zb:hover .ewm{
+	display: block;
+}
+.introduce {
+	display: inline-block;
+	margin-left: 20px;
+    line-height: 50px;
+}
+.right em{
+	color: #c4c3c3;
+	font-style: normal;
+	line-height: 30px;
+}
+.actors a{
+	margin-left: 10px;
+	line-height: 35px;
+}
+.on{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.off{
+	display: none;
+}
+.on i,.off i{
+	font-style: normal;
+	color: #1DB69A;
+	margin-left: 20px;
+}
+.jj{
+	margin: 15px 0;
+	display: inline-block;
+}
+.web{
+	display: inline-block;
+    margin-left: 760px;
+    margin-top: 15px;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+}
+.web ul{
+	display: none;
+    position: absolute;
+    z-index: 99;
+    margin-top: 3px;
+    background: #eaf3fb;
+    color: #049aff;
+    width: 85px;
+    text-align: center;
+}
+.web ul li{
+	border: 2px solid #fff;
+    border-top: transparent;
+    padding: 5px;
+}
+.web:hover ul{
+	display: block;
+}
+.aiqiyi::before{
+	content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/aiqiyi.png);
+    position: relative;
+    top: 6px;
+}
+.aiqiyi::after{
+	content: " ";
+	display: inline-block;
+	height: 0;
+	width: 0;
+	position: relative;
+	top: 1px;
+	border-top: 4px solid #999;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	
+}
+.all a{
+	display: inline-block;
+	width: 76px;
+	height: 40px;
+	background-color: #ebebeb;
+	text-align: center;
+	line-height: 40px;
+	color: #4c4c4c;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+	position: relative; 
+}
+.all a:hover{
+	text-decoration: none;
+	background-color: #039aff;
+	color: #fff;
+}
+.sj::before {
+    content: " ";
+    position: absolute;
+    left: 0px;
+    border-left: 12px solid #039aff;
+    border-bottom: 12px solid transparent;
+    display: inline-block;
+}
+.sj::after{
+	content: "付费剧集";
+	padding: 0 5px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #d4edf7fa;
+    color: #039aff;
+    display: none;
+}
+.sj:hover::before{
+	border-left: 15px solid #d4edf7fa;
+	z-index: 2;
+}
+.sj:hover::after{
+	display: block;
+}

@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.head-guide{
+  box-shadow: 0px 0px 15px #888;
+  background-color: #fff;
+  min-width: 1200px;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+.head-guide-wrapping{
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.head-guide-wrapping img.logo{
+  vertical-align: 10px;
+  display: inline-block;
+  width: 50px;
+}
+.f-e{
+    font-weight: 600;
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+    left: 10px;
+    background-image: -webkit-linear-gradient(left,#47a0df,#8d85c7 10%,#ce6eae 20%,#8d85c7 30%, #0093ff 40%, #ce6eae 50%,#9a81c3 60%,#8d85c7 70%,#47a0df 80%,#ce6eae 90%,#47a0df 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: masked-animation 4s linear infinite;
+
+  }
+  @keyframes masked-animation {
+    0% {
+        background-position: 0  0;
+    }
+    100% {
+        background-position: -100%  0;
+    }
+}
+.head-guide-wrapping ul{
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.head-guide-wrapping ul li{
+  float: left;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.guide li a{
+  color: #123;
+}
+.guide li a:hover{
+  color: #44a2df;
+}
+form{
+  display: inline-block;
+  margin-left: 90px;
+  vertical-align: 30px;
+}
+.head-guide-wrapping input{
+  padding-left: 20px;
+  outline:none;
+  border: 1px solid #44a2df;
+  width: 300px;
+  height: 36px;
+  border-radius: 40px;
+}
+.head-guide-wrapping button{
+  border: none;
+  background: -webkit-linear-gradient(left, #44a2df,#db68ab);
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.dl{
+  margin-left: 60px;
+}
+.dl span{
+  border: none;
+  background: -webkit-linear-gradient(left, #44a2df,#db68ab);
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: 30px;
+  position: relative;
+  left: 18px;
+}
+.abb{
+  width: 1200px;
+  margin: 0 auto;
+}
+
